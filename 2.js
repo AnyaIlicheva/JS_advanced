@@ -1,12 +1,3 @@
-function findKeyByValue(map, value) {
-    for (const [key, val] of map) {
-      if (val === value) {
-        return key;
-      }
-    }
-    return null; // Если значение не найдено
-  }
-
 const chefs = new Map();
 
 //Повара и их специализации
